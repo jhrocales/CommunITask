@@ -16,8 +16,8 @@ export default function Slider() {
       })
    }
    return (
-    <View>
-      <Heading text={'Offers For You'} />
+    <View style={{marginTop: -15}}>
+      <Heading text={'Offers For You'}/>
       <FlatList 
          data={slider}
          horizontal={true}
@@ -42,8 +42,8 @@ const styles = StyleSheet.create({
    },
 
    sliderImage: {
-      width: 270,
-      height: 150,
+      width: 220,
+      height: 120,
       borderRadius: 35,
       objectFit: 'contain'
    }
